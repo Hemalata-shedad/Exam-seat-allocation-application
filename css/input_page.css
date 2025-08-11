@@ -1,0 +1,222 @@
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Centered container for the form */
+.home {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styling */
+h1 {
+    text-align: center;
+    color: #007bff;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #444;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+/* Styling for the form container */
+.form {
+    margin-top: 10px;
+}
+
+.container_avil_branch {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #f9f9f9;
+}
+
+/* Row Styling for Branch Details */
+.row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+    flex-wrap: wrap; /* Ensures proper wrapping if space is limited */
+}
+/* Dropdown and Input Field Styling */
+.row select,
+.row input {
+    flex: 1;
+    min-width: 120px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Delete Button Styling */
+.row .deleteBranchButton {
+    flex: 0 0 auto; /* Do not expand the delete button */
+    padding: 10px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.row .deleteBranchButton:hover {
+    background-color: #c0392b;
+}
+
+.row .deleteBranchButton {
+    width: auto; /* Keep button size based on content */
+}
+
+/* Add Branch Button Styling */
+#addBranchButton {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#addBranchButton:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .row select,
+    .row input {
+        width: 100%;
+    }
+
+    .row .deleteBranchButton {
+        width: 100%;
+    }
+
+    #addBranchButton {
+        width: 100%;
+    }
+}
+
+
+/* Styling for the new student section */
+.container_add_students {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #f9f9f9;
+    margin-top: 30px;
+}
+
+/* Add common styles already used for rows, buttons, and inputs */
+.row select,
+.row input,
+.row button {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    background: #ffffff;
+}
+
+.row .deleteStudentButton {
+    padding: 10px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.row .deleteStudentButton:hover {
+    background-color: #c0392b;
+}
+
+#addStudentButton {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#addStudentButton:hover {
+    background-color: #0056b3;
+}
+
+#allotStudentsButton {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 12px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#allotStudentsButton:hover {
+    background-color: #218838;
+}
+
+#goBackButton {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 12px 20px;
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#goBackButton:hover {
+    background-color: #5a6268;
+}
