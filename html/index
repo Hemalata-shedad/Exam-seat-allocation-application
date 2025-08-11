@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exam Seat Allocator</title>
+  <link rel="stylesheet" href="/css/index.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Welcome to the Exam Seat Allocator</h1>
+    </header>
+
+    <div class="navigation">
+      <a href="/html/stddetails.html" class="btn">Add Student Details</a>
+      <a href="/html/input_page.html" class="btn">Exam Seat Allocation</a>
+    </div>
+
+    
+    
+    <footer>
+      <p>&copy; 2024 Exam Seat Allocator System</p>
+    </footer>
+  </div>
+</body>
+</html>
